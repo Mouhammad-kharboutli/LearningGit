@@ -54,7 +54,9 @@ git reset --hard  2c4e793640c753(part of log id)
 
 * git log -- author ="Mouhamad" // the use must be registreed other wise the result will show no thing if the user is not registered in the developer list
 
- 
+ * git diff --staged 
+ comparing your staging area with your repo, beacuse when you make git diff it compares lokal copy with staging area, then when you add . statment
+ Git put every thing to staging area and when you make git diff again (nothing will be shown) because there is no difference between staging area and lokal copy.
  
 *********************
 
