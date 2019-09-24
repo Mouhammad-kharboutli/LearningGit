@@ -61,6 +61,8 @@ git reset --hard  2c4e793640c753(part of log id)
  * git rm first.txt "the name"  then you need directly to commit your changes to staging area
 *********************
 
+
+
 ********************
 Git branch NAME"put the functionality that you will develop as name e.g login functionality"
 
