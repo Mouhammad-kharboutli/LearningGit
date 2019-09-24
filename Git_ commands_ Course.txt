@@ -2,6 +2,7 @@ This course you can find :
 
 https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7cwd&index=3&t=1s
 
+-- remote repo located on GitHUB.
 
 * git --version
 check the latest version of GIT
