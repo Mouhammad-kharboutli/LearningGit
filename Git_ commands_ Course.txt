@@ -44,7 +44,7 @@ shows the log(commits that happened) of the file
 git log (choose which commit you will chose)
 git reset --hard  2c4e793640c753(part of log id)
 
-* Git diff (which part before) (same part)  which file 
+* Git diff "if it did not show any thing that means you have the same copy of the repo"(which part before) (same part)  which file 
  git diff HEAD~5 HEAD -- Pipelines/Build_Model_PHS.groovy
 
 * git log -- author ="Mouhamad" // the use must be registreed other wise the result will show no thing if the user is not registered in the developer list
