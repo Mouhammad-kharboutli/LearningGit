@@ -58,8 +58,18 @@ git reset --hard  2c4e793640c753(part of log id)
  comparing your staging area with your repo, beacuse when you make git diff it compares lokal copy with staging area, then when you add . statment
  Git put every thing to staging area and when you make git diff again (nothing will be shown) because there is no difference between staging area and lokal copy.
  
- * git rm first.txt "the name"  then you need directly to commit your changes to staging area
-*********************
+ * git rm first.txt "the name" 
+ then you need directly to commit your changes to staging area
+
+ * git mv first.txt pud.txt (move and rename are the same)
+ renaming of file to other filename 
+ 
+ * git commit --all -m "add your message"
+ this statment is a commit and add statment in one statment
+ 
+ *mkdir "name of the directory" 
+ making new folder
+ *********************
 
 
 
