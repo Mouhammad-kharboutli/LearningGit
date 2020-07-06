@@ -7,6 +7,31 @@ https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 Orginal based video // first video to see:
 https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7cwd&index=3&t=1s
 
+-------Rebase vs merge -------
+Video : https://www.youtube.com/watch?v=f1wnYdLEpgI
+
+git pull (bringing the latset from the master)
+git checkout -b my_cool_feature (making a branch to develop my feature)
+
+git add . 
+git commit -m 'adding all staff'
+
+**I need to check out again to master to see if is there any new upadtes and pull them
+git checkout master
+git pull
+
+** I need to checkout to my branch and then rebase to the master
+git checkout my_cool_feature
+git rebase master
+
+** I need to checkout to master and then rebase to my_cool_feature
+git checkout master
+git rebase my_cool_feature
+
+I want to push all changes
+git push
+
+
 -- remote repo located on GitHUB.
 
 * git --version
