@@ -10,6 +10,7 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7
 -------Rewriting Git History - Amend, Reword, Delete, Reorder, Squash and Split ---------
 https://www.youtube.com/watch?v=ElRzTuYln0M
 
+** GIT reset HEAD^ (will unstage all files in HEAD)
 ** Git log --oneline (show the log of the repo as one line including commit message no thing else, no users , commit id ....etc)
 
 ** Amending commits
@@ -32,6 +33,14 @@ THATS IT
 you can reorder staff by changing the order in the VIM editor
 GIT rebase -i HEAD~2
 change the order of the last two commits and save the work. DONE
+
+** Squashing commits
+- squash: if I want to squash and modify the commit message
+- fixup : if I want to squash and ignore the commit message (when I put fixup om a commit message, this commit message will be gone)
+GIT rebase -i HEAD~3
+
+** Splitting commits
+
 
 
 
