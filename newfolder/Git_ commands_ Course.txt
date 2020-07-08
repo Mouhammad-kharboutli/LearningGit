@@ -21,6 +21,19 @@ git rebase -i HEAD~2
 if you want to edit a commit message , choose reword (r) and then modify the commit message save that and check the log again
 
 ** Deleting commits
+this will delete the commit and all changes that I done with that commit. it is not only the message it self.
+
+GIT rebase -i HEAD~2
+i = insert
+choose which commit you want to drop then ESQ :WQ
+THATS IT
+
+** Reordering commits
+you can reorder staff by changing the order in the VIM editor
+GIT rebase -i HEAD~2
+change the order of the last two commits and save the work. DONE
+
+
 
 
 -------Rebase vs merge -------
