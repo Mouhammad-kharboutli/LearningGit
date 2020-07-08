@@ -40,6 +40,17 @@ change the order of the last two commits and save the work. DONE
 GIT rebase -i HEAD~3
 
 ** Splitting commits
+git rebase HEAD~3
+choose edit then save
+git reset HEAD (will untrack all changes)
+git add first file 
+git commit first file
+git add second file 
+git commit second file
+
+git rebase --continue(NEW CHANGES WILL BE IN LOCAL)
+
+git push (NEW CHANGES WILL BE IN MASTER)
 
 
 
