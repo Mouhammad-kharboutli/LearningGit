@@ -20,7 +20,7 @@ git commit --amend --no-edit (this means add the new files that staged and then 
 git rebase -i HEAD~2
 if you want to edit a commit message , choose reword (r) and then modify the commit message save that and check the log again
 
-
+** Deleting commits
 
 
 -------Rebase vs merge -------
