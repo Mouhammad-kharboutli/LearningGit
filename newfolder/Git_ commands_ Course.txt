@@ -10,13 +10,13 @@ https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7
 -------Rewriting Git History - Amend, Reword, Delete, Reorder, Squash and Split ---------
 https://www.youtube.com/watch?v=ElRzTuYln0M
 
-* Git log --oneline (show the log of the repo as one line including commit message no thing else, no users , commit id ....etc)
+** Git log --oneline (show the log of the repo as one line including commit message no thing else, no users , commit id ....etc)
 
-* Amending commits
+** Amending commits
 git commit --amend --no-edit (this means add the new files that staged and then the previous message commit will stay the same , just having a new ID)
 
 
-* Rewording commits
+** Rewording commits
 git rebase -i HEAD~2
 if you want to edit a commit message , choose reword (r) and then modify the commit message save that and check the log again
 
