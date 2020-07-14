@@ -7,6 +7,24 @@ https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 Orginal based video // first video to see:
 https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7cwd&index=3&t=1s
 
+
+
+-------basics in GIT ------------
+https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+
+** git remote add origin remote_repository_URL# sets the new remote
+The git remote command lets you create, view, and delete connections to other repositories.
+
+** git remote -v:  shows all connection to the repos that u have
+The git remote -v command lists the URLs of the remote connections you have to other repositories.
+
+** git push -u origin master # pushes changes to origin 
+
+
+
+
+
+
 -------Rewriting Git History - Amend, Reword, Delete, Reorder, Squash and Split ---------
 https://www.youtube.com/watch?v=ElRzTuYln0M
 
