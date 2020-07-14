@@ -21,8 +21,83 @@ The git remote -v command lists the URLs of the remote connections you have to o
 ** git push -u origin master # pushes changes to origin 
 
 
+BASICS in GIT :
+
+https://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+// Set up your username and email (to be used in labeling your commits)
+**  git config --global user.name "your-name"
+**  git config --global user.email "your-email@youremail.com"
 
 
+**  git config --list
+user.email=xxxxxx@xxxxxx.com
+user.name=xxxxxx
+
+
+$ git log --oneline
+   // Display EACH commit in one line.
+ 
+$ git log --author="<author-name-pattern>"
+   // Display commits by author
+   
+$ git log <file-pattern>
+   // Display commits for particular file(s)
+
+// EXAMPLES
+$ git log --author="Tan Ah Teck" -p Hello.java
+   // Display commits for file "Hello.java" by a particular author
+   
+
+
+** git help <command>
+// or
+** git <command> --help
+
+
+++++++++++++++++++++++++++++++
+
+// Edit (Create, Modified, Rename, Delete) files,
+//  which produces "unstaged" file changes.
+ 
+// Stage file changes, which produces "Staged" file changes
+$ git add <file>                          // for new and modified files
+$ git rm <file>                           // for deleted files
+$ git mv <old-file-name> <new-file-name>  // for renamed file
+
+// Commit (ALL staged file changes)
+$ git commit -m "message"
+
+// Push
+$ git push <remote-name> <local-branch-name>
+OR,
+
+// Stage ALL files with changes
+$ git add -A   // OR, 'git add --all'
+
+$ git commit -m "message"
+$ git push
+OR,
+
+// Add All and Commit in one command
+$ git commit -a -m "message"
+
+$ git push
+
+++++++++++++++++++++++++++++++
+ag (or label) can be used to tag a specific commit as being important, for example, to mark a particular release. The release is often marked in this format: version-number.release-no.modificaton-no (e.g., v1.1.5) or or version-number.release-no.upgrade-no_modificaton-no (e.g., v1.7.0_26).
+
+I recommend that you commit your code and push it to the remote repo as often as needed (e.g., daily), to BACKUP your code. When you code reaches a stable point (in turn of functionality), create a tag to mark the commit, which can then be used for CHECKOUT, if you need to show your code to others.
+
+$ git tag -a v1.0.0 -m "First production system"
+ 
+// List all tags
+$ git tag
+v1.0.0
+ 
+// Show tag details
+$ git show v1.0.0
+   // Show the commit point and working tree
 
 
 -------Rewriting Git History - Amend, Reword, Delete, Reorder, Squash and Split ---------
