@@ -7,7 +7,10 @@ https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx
 Orginal based video // first video to see:
 https://www.youtube.com/watch?v=SWYqp7iY_Tc&list=PLYiv-DFk1jyDXcLxzdZnQcqYZaerj7cwd&index=3&t=1s
 
-
+-------------------------------
+Great explanation about : Git Commands: what is commit pull push origin master?
+https://www.youtube.com/watch?v=UGkT8w91qXQ
+-------------------------------
 
 -------basics in GIT ------------
 https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
